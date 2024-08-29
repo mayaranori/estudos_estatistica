@@ -1,0 +1,21 @@
+O que é Numpy?
+Significa Numerical Python, é uma poderosa biblioteca da linguagem de programação Python, que consiste em objetos chamados de arrays(matrizes), que são multidimensionais. Além disso, essa biblioteca vem com uma coleção de rotinas para processar esses arrays.
+Array 1D , Array 2D, Array 3D e temos tambem arrays de mais dimensões . 
+
+A biblioteca numpy é feita para trabalhar com esse tipo de dado, um exemplo de matriz de mais dimensões são matrizes, quando dimensionamos imagens.
+
+VANTAGENS DE USAR NUMPY:
+
+1. Array ocupa menos memória 
+- os dados do numpy são armazenados em um bloco continuo de memoria, ao contrario de outros tipos de objetos do python , a biblioteca do python consegue acessar esses dados e modificar eles de maneira muito eficiente , esse conceito é chamado de **LOCALIDADE DE REFERÊNCIA** dentro da ciência da computação
+- Visto que os arrays do Numpy não são sequências embutidas eles utilizam quantidade menor de memória.
+2. São mais velozes 
+- as operações que o numpy disponibiliza são capazes de processar um lexo (conjunto de dados) sem a necessidade de laços
+- com isso as aplicações que utilizam Numpy são de 10 a 100x mais rápidas comparadas às aplicações que usam as estruturas ou operações nativas do Pyhton.
+3. Facilidade na execução de cálculos numéricos .
+Ele disponibiliza uma variedade de operações para serem realizadas com os arrays,  assim como o Pandas , por isso essa biblioteca é muito utilizada em aplicações que exigem expansões que exigem realizar operações como adções, subtrações, multiplicações, transposição, diferenciação, interpolação, entre outras operações com conjuntos de dados, como área de aprendizado de máquina, processamento de imagens e rotinas matemáticas.
+
+** No inicio da carreira em dados acabamos não nos preocupando tanto com a questão de memória e velocidade, estamos mais preocupados em fazer um código rodar, mas a partir do momento que estamos avançando na ciencia de dados, precisamos começar a pensar em coisas como ocupação de memória, velocidade do código, complexidade do código, porque o ocupar a memoria, o demorar para rodar o codigo, vão utilizar recursos em excesso da empresa e se torna inviavel fazer um teste com aquele algoritmo, porque a empresa tem muito custo.
+Normalmente quando trabalhamos com parte de otimização , na computação, sempre vamos preferir o algoritmo que rode mais rapido e ocupe menos recursos **
+
+
